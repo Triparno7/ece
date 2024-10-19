@@ -5,7 +5,11 @@ import TeamCardHome from './teamcardhome'
 import { TeamDataHome } from './teamDataHome';
 import eventDataHome from './eventDataHome';
 import { Link } from "react-router-dom";
-
+import Carousel from "../Carousel";
+import EventSection from "../Eventdisp/EventSection";
+import Swipe from "../Swipe";
+import FlowerSlider from "../Swipe";
+import CardFlipper from "../CardFlipper";
 const landing = () => {
     const settings = {
         infinite: true,
@@ -83,10 +87,20 @@ const landing = () => {
                 </div>
             </div>
             <div className="event-home-section">
-                <h1 className="section-title-team">
-                    <span className="title1">Featured</span> <span className="title2">Events</span>
+                <h1 className="section-title-team text-center font-extrabold text-teal-300 decoration-slate-50 decoration-8">
+                    <span className="title1 text-center bg-black border-slate-300">Featured</span> <span className="title2 text-center bg-black border-slate-300">Events</span>
                 </h1>
-                <div class="gallery">
+
+                {/* <h1 className="text-5xl text-center font-extrabold text-teal-300 underline decoration-slate-50 decoration-8 mb-4">
+          <span className="text-white">OUR </span>
+          <div>
+            EVENTS
+            </div>
+        </h1> */}
+
+
+                {/* changes from here*  */}
+                {/* <div class="gallery">
                     {eventDataHome.map((event, index) => (
                         <div key={index} class="card-event-home">
                             <figure class="card-image">
@@ -97,7 +111,19 @@ const landing = () => {
                             </div>
                         </div>
                     ))}
-                </div>
+                </div> */}
+
+                   {/* <Carousel/> */}
+                   {/* <Swipe/> */}
+                   {/* <FlowerSlider/> */}
+                   <div className="relative z-10">
+
+                   <CardFlipper/>
+                   </div>
+                   {/* <div className="event-section">
+                   <EventSection/>
+
+                   </div> */}
                 <div class="container">
                     <Link to='/events' className="button type--A">
                         <div class="button__line"></div>

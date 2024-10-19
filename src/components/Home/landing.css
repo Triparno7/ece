@@ -175,13 +175,15 @@
     margin-bottom: 5px;
   }
 
-.event-home-section {
-  background-image: url('/public/eventhomesection.jpg');
+.event-home-section{
+  background-image: url('/public/pic2.jpeg');
   background-size: cover;
   image-resolution: high;
   background-position: center;
   padding: 60px 80px;
+  /* opacity: 0.8; */
 }
+
 
 
 .team-home-section {
@@ -192,7 +194,7 @@
   padding: 50px 80px;
 }
 
-.gallery{
+/* .gallery{
   margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -253,6 +255,12 @@
 			bottom: 0;
 		}
 	}
+} */
+
+.event-section{
+  display: flex;
+  align-items: center;
+  justify-items: center;
 }
 
 .section-title-team {

@@ -1,0 +1,81 @@
+.event-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 8px solid teal;
+    border-radius: 20px;
+    padding: 24px;
+    font-family: sans-serif;
+    color: white;
+  }
+  
+  .event-header {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 800;
+    color: teal;
+    text-decoration: underline;
+    text-decoration-color: slategray;
+    text-decoration-thickness: 8px;
+  }
+  
+  .highlight-text {
+    /* color: white; */
+  }
+  
+  .event-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .event-details-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: 20px;
+  }
+  
+  .event-images-container {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  
+  .event-image-box {
+    width: 12rem;
+    cursor: pointer;
+    position: relative;
+    transition: opacity 1s ease;
+    opacity: 0.5;
+    z-index: 10;
+  }
+  
+  .event-image-box.active {
+    opacity: 1;
+    z-index: 20;
+  }
+  
+  .event-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .toggle-button {
+    background-color: teal;
+    color: #2f2f2f;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-button:hover {
+    background-color: #004d40;
+  }
+  

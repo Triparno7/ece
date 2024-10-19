@@ -61,13 +61,14 @@ const eventsData = [
         time: `3:30pm`,
         venue: `SL 31, ECE Department, NIT DURGAPUR`
     },
+
     {
         id: 5,
         image: 'https://i.imgur.com/1hMJMFX.jpeg',
         title: 'PCB Design Workshop',
         description:`A two-day workshop focused on Printed Circuit Board design. It aims to teach participants about the various components of a 
-                    PCB board, how to simulate circuits, how to convert those simulations into a PCB layout using EDA tools. This hands-on 
-                    experience will provide foundational knowledge for anyone interested in electronics and PCB design.`,
+        PCB board, how to simulate circuits, how to convert those simulations into a PCB layout using EDA tools. This hands-on 
+        experience will provide foundational knowledge for anyone interested in electronics and PCB design.`,
         modaldescription:`"THE EXPERT IN ANYTHING WAS ONCE A BEGINNER" People of all backgrounds and interests, are you ready to explore the fascinating realm of printed circuit boards (PCBs)? Join us at the Electronics and Communication Engineering Student's Society for a transformative two-day workshop on PCB design, happening on January 29th and 30th, 2022. Whether you're curious about the inner workings of consumer electronics or eager to master the art of PCB layout from scratch using advanced EDA tools, this workshop is your gateway. Discover the intricacies of PCB components, simulate circuits, and turn your designs into reality. Don't miss this chance to expand your knowledge and skills in electronics. Register now through the provided link and embark on a journey towards unlocking the true potential of electronics with us!`,
         date: `29th & 30th January, 2022`,
         time: `4pm`,
@@ -92,7 +93,7 @@ const eventsData = [
         description:`A workshop  designed to introduce participants to the fundamental concepts of Very-Large-Scale Integration (VLSI) and Digital Hardware 
                     Design, with a focus on RTL (Register Transfer Level) and Verilog. It is ideal for enthusiasts looking to delve into the field of VLSI 
                     design, providing both theoretical knowledge and practical skills`,
-        modaldescription:`Ever wondered how millions of transistors are intricately woven together onto a single chip to create the marvels of modern technology? Very-large-scale integration (VLSI) is the pioneering process that achieves this feat, enabling the integration of thousands of transistors into a compact integrated circuit (IC). These VLSI circuits are ubiquitous in our daily lives, powering everything from smartphones and computers to medical devices and automotive systems, revolutionizing industries and enhancing functionality.With this in mind, the Electronics and Communication Engineering Student's Society at NIT Durgapur proudly presents "VLSI: Digital Design Workshop". This workshop aims to introduce participants to the fundamental concepts of VLSI and Digital Hardware Design, alongside learning RTL-Verilog—a pivotal language in VLSI design. Worried about practical applications? Fear not! The workshop includes hands-on sessions where you'll delve into the design of combinational and sequential systems using cutting-edge VLSI technology.Participants are encouraged to have a basic understanding of Logic Gates and K-Maps as prerequisites for this workshop. By the end of these engaging two days, attendees will not only gain practical insights into VLSI design but also receive a Certificate of Completion, validating their newfound skills and knowledge in this transformative field of electronics.`,
+                    modaldescription:`Ever wondered how millions of transistors are intricately woven together onto a single chip to create the marvels of modern technology? Very-large-scale integration (VLSI) is the pioneering process that achieves this feat, enabling the integration of thousands of transistors into a compact integrated circuit (IC). These VLSI circuits are ubiquitous in our daily lives, powering everything from smartphones and computers to medical devices and automotive systems, revolutionizing industries and enhancing functionality.With this in mind, the Electronics and Communication Engineering Student's Society at NIT Durgapur proudly presents "VLSI: Digital Design Workshop". This workshop aims to introduce participants to the fundamental concepts of VLSI and Digital Hardware Design, alongside learning RTL-Verilog—a pivotal language in VLSI design. Worried about practical applications? Fear not! The workshop includes hands-on sessions where you'll delve into the design of combinational and sequential systems using cutting-edge VLSI technology.Participants are encouraged to have a basic understanding of Logic Gates and K-Maps as prerequisites for this workshop. By the end of these engaging two days, attendees will not only gain practical insights into VLSI design but also receive a Certificate of Completion, validating their newfound skills and knowledge in this transformative field of electronics.`,
         date: `10th & 11th April 2021`,
         time: `5pm`,
         Mode: `Online`
@@ -104,7 +105,7 @@ const eventsData = [
         description:`This event offers comprehensive insights into the placement process, covering eligibility criteria, required skills, an overview of 
                     participating companies, and details about offered salaries. Participants will gain valuable information to enhance their readiness and 
                     confidence for securing desirable job opportunities in their field.`,
-        modaldescription:`Ever found yourself nervous about the upcoming placements? Wondering how to navigate through the process or what skills are crucial for success? The Electronics and Communication Engineering Students' Society (ECESS) is here to address all your uncertainties this Republic Day with our exclusive event, "Placement Talks". This initiative aims to provide comprehensive insights into every aspect of the placement journey—from understanding the prerequisites and honing essential skills to gaining a clear understanding of the participating companies and the competitive landscape. With campus placements spanning throughout the fourth year, this event offers a prime opportunity to equip yourself with the knowledge and confidence needed to secure your dream job. Join us for an informative session that promises to empower you and set you on the path to a successful career.` ,
+                    modaldescription:`Ever found yourself nervous about the upcoming placements? Wondering how to navigate through the process or what skills are crucial for success? The Electronics and Communication Engineering Students' Society (ECESS) is here to address all your uncertainties this Republic Day with our exclusive event, "Placement Talks". This initiative aims to provide comprehensive insights into every aspect of the placement journey—from understanding the prerequisites and honing essential skills to gaining a clear understanding of the participating companies and the competitive landscape. With campus placements spanning throughout the fourth year, this event offers a prime opportunity to equip yourself with the knowledge and confidence needed to secure your dream job. Join us for an informative session that promises to empower you and set you on the path to a successful career.` ,
         date : `26th January, 2021 (Tuesday)`,
         time : `5:15 pm`,
         venue: `Online`
@@ -114,13 +115,14 @@ const eventsData = [
         image: 'https://i.imgur.com/WwxWzgJ.jpeg',
         title: 'Embedded Systems Workshop',
         description:`It provided a comprehensive introduction to embedded systems,where  Participants will learn about microprocessors, microcontrollers, 
-                    sensors, and their practical applications. This includes hands-on experience using simulation software to design, simulate, and prototype 
+        sensors, and their practical applications. This includes hands-on experience using simulation software to design, simulate, and prototype 
                     circuits resembling commercially available products.`,
-        modaldescription:`Embedded systems are the hidden heroes powering countless devices we rely on daily, from medical equipment to home appliances. At Electronics and Communication Engineering Student's Society (ECESS), NIT Durgapur, we're passionate about demystifying these technologies. Beyond the basics of microprocessors and sensors, our workshop delves into real-world applications, teaching you how to simulate and design circuits that mirror what's used in today's tech landscape. Imagine gaining hands-on experience that translates directly into understanding how your favorite gadgets function. Whether you're considering a career in electronics or just eager to explore, our workshop offers a gateway to practical knowledge and skills. Join us to uncover the secrets of embedded systems—your journey starts here!`,
-        date: `13th & 14th March, 2021`,
+                    modaldescription:`Embedded systems are the hidden heroes powering countless devices we rely on daily, from medical equipment to home appliances. At Electronics and Communication Engineering Student's Society (ECESS), NIT Durgapur, we're passionate about demystifying these technologies. Beyond the basics of microprocessors and sensors, our workshop delves into real-world applications, teaching you how to simulate and design circuits that mirror what's used in today's tech landscape. Imagine gaining hands-on experience that translates directly into understanding how your favorite gadgets function. Whether you're considering a career in electronics or just eager to explore, our workshop offers a gateway to practical knowledge and skills. Join us to uncover the secrets of embedded systems—your journey starts here!`,
+                    date: `13th & 14th March, 2021`,
         time: `5pm`,
         venue: `Online`
-    }
+    },
 ];
-
 export default eventsData;
+
+

@@ -1,0 +1,80 @@
+/* Custom styles for 3D flip effect */
+/* .perspective {
+    perspective: 1000px;
+  }
+  
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+  
+  .hover\:rotate-y-180:hover {
+    transform: rotateY(180deg);
+  }
+   */
+
+   .perspective {
+    perspective: 1000px;
+  }
+  
+  .transform-style {
+    transform-style: preserve-3d;
+  }
+  
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+  
+  .hover\:rotate-y-180:hover {
+    transform: rotateY(180deg);
+  }
+  /* Flip container */
+.flip-card {
+  perspective: 1000px; /* This makes the 3D effect */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Front and back face styling */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 0.5rem;
+}
+
+/* Back face will be hidden initially */
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+/* Prevent text from overflowing */
+.flip-card-back p {
+  word-wrap: break-word;
+  font-size: clamp(0.875rem, 1.5vw, 1rem); /* Responsive font size */
+  margin: 0;
+  padding: 0 10px;
+}
+
+.flip-card-front img {
+  width: clamp(100px, 25vw, 150px); /* Responsive image size */
+  height: clamp(100px, 25vw, 150px);
+}
