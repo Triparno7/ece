@@ -5,11 +5,12 @@ import TeamCardHome from './teamcardhome'
 import { TeamDataHome } from './teamDataHome';
 import eventDataHome from './eventDataHome';
 import { Link } from "react-router-dom";
-import Carousel from "../Carousel";
+// import Carousel from "../Carousel";
 import EventSection from "../Eventdisp/EventSection";
-import Swipe from "../Swipe";
-import FlowerSlider from "../Swipe";
-import CardFlipper from "../CardFlipper";
+// import Swipe from "../Swipe";
+// import FlowerSlider from "../Swipe";
+// import CardFlipper from "../CardFlipper";
+import EventSlider from "../EventSlider";
 const landing = () => {
     const settings = {
         infinite: true,
@@ -87,50 +88,30 @@ const landing = () => {
                 </div>
             </div>
             <div className="event-home-section">
-                <h1 className="section-title-team text-center font-extrabold text-teal-300 decoration-slate-50 decoration-8">
-                    <span className="title1 text-center bg-black border-slate-300">Featured</span> <span className="title2 text-center bg-black border-slate-300">Events</span>
-                </h1>
-
-                {/* <h1 className="text-5xl text-center font-extrabold text-teal-300 underline decoration-slate-50 decoration-8 mb-4">
-          <span className="text-white">OUR </span>
-          <div>
-            EVENTS
-            </div>
-        </h1> */}
-
-
-                {/* changes from here*  */}
-                {/* <div class="gallery">
-                    {eventDataHome.map((event, index) => (
-                        <div key={index} class="card-event-home">
-                            <figure class="card-image">
-                                <img className="event-home-image" src={event.image}/>
-                            </figure>
-                            <div class="event-card-header">
-                                <p>{event.title}</p>
-                            </div>
-                        </div>
-                    ))}
-                </div> */}
-
-                   {/* <Carousel/> */}
-                   {/* <Swipe/> */}
-                   {/* <FlowerSlider/> */}
-                   <div className="relative z-10">
-
-                   <CardFlipper/>
-                   </div>
-                   {/* <div className="event-section">
-                   <EventSection/>
-
-                   </div> */}
+                <div class="text-center">
+        <h1 class="text-4xl font-semibold text-white flex justify-center space-x-2 m-6">
+            <span class="relative">
+                Our
+                <span class="absolute left-0 bottom-0 w-full h-1 bg-teal-300"></span>
+            </span>
+            <span class="relative text-teal-300">
+                Events
+                <span class="absolute left-0 bottom-0 w-full h-1 bg-white"></span>
+            </span>
+        </h1>
+    </div>
+                  <EventSlider/>
                 <div class="container">
-                    <Link to='/events' className="button type--A">
-                        <div class="button__line"></div>
-                        <div class="button__line"></div>
-                        <span class="button__text">Know More</span>
-                        <div class="button__drow1"></div>
-                        <div class="button__drow2"></div>
+                    <Link to='/events'>
+
+                        <div className="flex justify-center -mt-1">
+  <button className="static mt-6 bg-transparent py-1 px-6 rounded-full text-2xl flex items-center transition-transform transform hover:scale-105 hover:bg-opacity-20 bg-opacity-10 bg-white hover:shadow-lg">
+    <span className="text-teal-300 font-semibold">Know</span>
+    <span className="text-white font-semibold ml-3">More</span>
+    <span className="text-teal-300 ml-2">→</span>
+  </button>
+</div>
+    
                     </Link>
                 </div>
             </div>
